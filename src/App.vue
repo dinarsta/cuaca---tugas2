@@ -25,12 +25,12 @@
 
           <div class="extra-info">
             <div class="info-box">
-              💧 {{ humidity }}%
+              <i class="fas fa-tint"></i> {{ humidity }}%
               <span>Kelembapan</span>
             </div>
 
             <div class="info-box">
-              🌬️ {{ wind }} km/h
+              <i class="fas fa-wind"></i> {{ wind }} km/h
               <span>Angin</span>
             </div>
           </div>
@@ -164,5 +164,4 @@ export default {
 };
 </script>
 
-<!-- Import CSS di luar template -->
 <style src="./assets/weather.css"></style>
