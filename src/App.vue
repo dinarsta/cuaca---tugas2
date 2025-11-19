@@ -286,6 +286,7 @@ export default {
   font-size: 16px;
   font-weight: bold;
   margin: 0 5px;
+  color:black;
 }
 
 .icon-btn:hover {
@@ -426,7 +427,8 @@ export default {
   }
 
   .calendar-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-
+    late-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
   }
 
